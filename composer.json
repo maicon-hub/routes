@@ -1,0 +1,27 @@
+{
+  "name": "maicon-hub/config-composer",
+  "description": "Conhecendo o composer",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maicon",
+      "email": "maiconandradexd@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "src/"
+    },
+    "files": [
+      "src/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/router": "1.0.*"  
+  }
+}
